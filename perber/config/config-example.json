@@ -1,5 +1,9 @@
 {
-    "redisURL": "http://localhost/",
+    "redisConf": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "url": "//localhost/"
+    },
 
     "mysqlConf": {
         "host" : "localhost",
@@ -7,6 +11,10 @@
         "user" : "your db user",
         "password" : "your db pwd",
         "database" : "your database"
+    },
+
+    "qqMap": {
+        "key": "7CZBZ-VGCRU-IQ6VH-4QL5Q-NUZIZ-JGFZQ",
     },
 
     "qiniuConfig": {
